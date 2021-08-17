@@ -2,14 +2,11 @@ body, html {
     height: 100%;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 html, body {
     min-width: 400px;
-}
-
-html {
-     display: block;
 }
 
 body {
@@ -29,6 +26,7 @@ body, input, button {
     align-items: center;
     justify-content: space-between;
     padding: 30px 50px;
+    
     
 }
 
@@ -114,6 +112,8 @@ body, input, button {
     justify-content: space-between;
     padding: 30px 50px;
     margin-top: 160px;
+    background: #f2f2f2;
+    width: 100%
     
 }
 
@@ -121,7 +121,8 @@ body, input, button {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-right: 500px;
+    margin-left: 50px;
+    margin-right: 300px;
 }
 .footer-right {
     display: flex;
