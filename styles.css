@@ -8,10 +8,6 @@ html, body {
     min-width: 400px;
 }
 
-html {
-     display: block;
-}
-
 body {
     background: #fff;
     display: flex;
