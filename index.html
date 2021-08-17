@@ -7,45 +7,32 @@
     <title>Google Homepage Project</title>
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
-    <!-- Choose which maxcdn to use -->
-
-    <link rel="stylesheet" href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome-font-awesome.min.css">
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet"> -->
-    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="nav">
         <div class="nav-left">
-            <div class="menu">
-                <a href="#">About</a>
-                <a href="#">Store</a>
-            </div>
+            <a href="#">About</a>
+            <a href="#">Store</a>  
         </div>
         <div class="nav-right">
-            <div class="menu">
-                <a href="#">Gmail</a>
-                <a href="#">Images</a>
-            </div>
-            <a href="#" class="app-icon">
-                <i class="fa fa-th"></i>
-            </a>
-            <button>Sign In</button>
+            <a href="#">Gmail</a>
+            <a href="#">Images</a>
+            <span class="material-icons apps">apps</span>
+            <span class="material-icons">person</span>
         </div>
     </div>
 
-    <div class="search">
-        <div class="search-logo">
-            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-        </div>
-        <div class="search-bar">
-            <div class="search-icon-left">
-                <i class="fa fa-search"></i>
+    <div class="section">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"/>
+        
+        <div class="search">
+            <div class="search-bar">
+                <span class="material-icons">search</span>
+                <input type="text">
+                <span class="material-icons">mic</span>     
             </div>
-            <input type="text">
-            <div class="search-icon-right">
-                <i class="fa fa-microphone"></i>
-            </div>
-        </div>
         <div class="search-buttons">
             <button>Google Search</button>
             <button>I'm Feeling Lucky</button>
@@ -64,8 +51,7 @@
             <a href="#">Terms</a>
             <a href="#">Settings</a>
         </div>
-    </div>
-    
-    
+    </div> 
+
 </body>
 </html>

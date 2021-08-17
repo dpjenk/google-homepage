@@ -1,0 +1,140 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    min-width: 400px;
+}
+
+html {
+     display: block;
+}
+
+body {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+body, input, button {
+    font-size: 18px;
+    font-family: Roboto, arial, sans-serif;
+    color: #222;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 50px;
+    
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+.nav-right {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.nav-right .apps {
+    margin-right: 30px;
+}
+
+.nav a {
+    margin-right: 50px;
+    text-decoration: none;
+    color: #222;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.section img {
+    object-fit: contain;
+    height: 100px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    border: 1px solid #d3d3d3;
+    height: 30px;
+    padding: 10px 20px;
+    border-radius: 1000px;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 30px;
+    max-width: 560px;
+}
+
+.search-bar input {
+    flex: 1;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+}
+
+.search-bar input .material icons {
+    color: #808080
+}
+
+.search-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.search-buttons button {
+    background: #f8f8f8;
+    margin: 20px;
+    padding: 10px 15px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 50px;
+    margin-top: 160px;
+    
+}
+
+.footer-left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 500px;
+}
+.footer-right {
+    display: flex;
+    align-items: center; 
+}
+
+.footer a {
+    margin-right: 50px;
+    text-decoration: none;
+    color: #222;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
