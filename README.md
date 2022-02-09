@@ -1,2 +1,2 @@
 # google-homepage
-Basic HTML CSS Odin project
+Basic HTML CSS project to duplicate a Google homepage
